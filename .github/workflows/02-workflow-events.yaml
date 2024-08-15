@@ -33,10 +33,6 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - run: |
-                    env:
-                        LEVEL: ${{ inputs.logLevel }}
-                        TAGS: ${{ inputs.tags }}
-                        ENVIRONMENT: ${{ inputs.environment }}
-                    echo "Log level:"
-                    echo "Tags: "
-                    echo "Environment: "
+                    echo "Log level: ${{ github.event.inputs.logLevel }}"
+                    echo "Tags: ${{ github.event.inputs.tags }}"
+                    echo "Environment: ${{ github.event.inputs.environment }}"
