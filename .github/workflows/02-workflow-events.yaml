@@ -37,6 +37,6 @@ jobs:
                         LEVEL: ${{ inputs.logLevel }}
                         TAGS: ${{ inputs.tags }}
                         ENVIRONMENT: ${{ inputs.environment }}
-                    echo "Log level: $LEVEL"
-                    echo "Tags: $TAGS"
-                    echo "Environment: $ENVIRONMENT"
+                    echo "Log level:"
+                    echo "Tags: "
+                    echo "Environment: "
