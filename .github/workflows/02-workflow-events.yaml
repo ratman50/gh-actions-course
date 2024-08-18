@@ -1,7 +1,5 @@
 name: 02 - Workflow Events
-on:
-    
-    
+on: 
      workflow_dispatch:
           inputs:
                logLevel:
